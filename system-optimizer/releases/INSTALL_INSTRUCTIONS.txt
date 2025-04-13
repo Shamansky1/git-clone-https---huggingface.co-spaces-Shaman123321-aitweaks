@@ -1,0 +1,24 @@
+Windows 11 Installation Guide:
+
+1. INSTALLER LOCATION:
+   - system-optimizer/releases/AITweaks Setup 1.0.1.exe
+
+2. INSTALLATION STEPS:
+   - Right-click the installer
+   - Select "Run as administrator" 
+   - Follow the installation wizard
+   - Launch from Start Menu
+
+3. SYSTEM REQUIREMENTS:
+   - Windows 11 (64-bit)
+   - 4GB RAM minimum
+   - 500MB disk space
+
+4. FIRST RUN:
+   - Audio optimizations activate automatically
+   - Game profiles load on detection
+
+5. TROUBLESHOOTING:
+   - If blocked by Windows Defender:
+     Click "More info" then "Run anyway"
+   - For audio issues: Run as administrator

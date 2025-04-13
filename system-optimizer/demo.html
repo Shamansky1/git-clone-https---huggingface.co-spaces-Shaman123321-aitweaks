@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Equalizer Demo</title>
+  <link rel="stylesheet" href="styles/equalizer.css">
+</head>
+<body>
+  <div id="equalizer-container"></div>
+  
+  <script type="module">
+    import EqualizerUI from './src/equalizer-ui.js';
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize the equalizer UI
+      const eqUI = new EqualizerUI();
+      
+      // Add some demo instructions
+      const instructions = document.createElement('div');
+      instructions.innerHTML = `
+        <h2>Gaming Audio Equalizer</h2>
+        <p>Select a preset or adjust bands manually:</p>
+        <ul>
+          <li><strong>Footsteps</strong>: Enhances mid-range for better positional audio</li>
+          <li><strong>Music</strong>: Balanced sound for background music</li>
+          <li><strong>Voice</strong>: Optimized for voice chat clarity</li>
+        </ul>
+      `;
+      instructions.style.color = 'white';
+      instructions.style.margin = '20px';
+      document.body.prepend(instructions);
+    });
+  </script>
+</body>
+</html>

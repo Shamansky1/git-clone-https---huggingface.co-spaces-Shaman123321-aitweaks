@@ -1,0 +1,45 @@
+{
+  "name": "aitweaks",
+  "version": "1.0.1",
+  "description": "AI-powered system optimization tool",
+  "author": "Your Name <your.email@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaman123321/aitweaks.git"
+  },
+  "main": "main-new.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/test-profiles.js",
+    "test:watch": "nodemon test/test-profiles.js",
+    "benchmark": "node test/benchmark.js",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.aitweaks.app",
+    "productName": "AITweaks",
+    "files": [
+      "**/*",
+      "!node_modules/{@types,@electron,@typescript}/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "node_modules/icon.png"
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "@babel/core": "^7.26.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "@babel/preset-env": "^7.26.9",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "electron-builder": "^26.0.12",
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}

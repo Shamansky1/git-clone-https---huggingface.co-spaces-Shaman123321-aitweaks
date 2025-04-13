@@ -1,0 +1,20 @@
+# AiTweaks Promotional Package
+
+## What's Included:
+✅ promo_final.png - Main promotional image  
+✅ /promo folder containing:  
+   - marketing_campaign.txt  
+   - sample_social_post.md  
+   - usage_guide.md  
+   - README.md  
+
+## How To Use:
+1. Unzip package: `unzip aitweaks_promo.zip`
+2. Use the image for social media
+3. Follow marketing guidelines
+4. Customize sample posts
+
+## Next Steps:
+- Add your video to promo/videos/
+- Replace background.png if needed
+- Launch your campaign!

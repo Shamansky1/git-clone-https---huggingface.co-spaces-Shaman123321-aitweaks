@@ -1,0 +1,5 @@
+This is a sample text file for compression testing.
+It contains multiple lines of text data to verify
+how well the compression algorithms work with 
+real-world text content. The quick brown fox jumps
+over the lazy dog. Lorem ipsum dolor sit amet.
